@@ -1,6 +1,6 @@
 # FNO-Stress Strain
 
-### Our work uses a neural operator based framework- Fourier Neural Operator [FNO] (https://arxiv.org/abs/2010.08895)  to learn the stress strain fields for 2D Composites. 
+### Our work uses a neural operator based framework- Fourier Neural Operator [FNO](https://arxiv.org/abs/2010.08895)  to learn the stress strain fields for 2D Composites. 
 Shield: [![CC BY NC SA][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
