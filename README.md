@@ -3,7 +3,10 @@
 Using a neural operator based framework- Fourier Neural Operator [FNO](https://arxiv.org/abs/2010.08895)  to learn the stress strain fields for 2D Composites. 
 
 ### Stress-Strain Prediction
-We use the FNO framework to predcit the \sigma_{xx}
+We use the FNO framework to predcit components of Stress and Strain Tensors
+$$\hspace{10cm}  Stress := \sigma_{xx} ,\sigma_{yy},\sigma_{xy}$$
+$$\hspace{10cm}  Strain := \varepsilon_{xx} ,\varepsilon_{yy},\varepsilon_{xy}$$
+
 
 
 
