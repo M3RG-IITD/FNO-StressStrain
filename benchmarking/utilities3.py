@@ -77,8 +77,8 @@ class UnitGaussianNormalizer(object):
         super(UnitGaussianNormalizer, self).__init__()
 
         # x could be in shape of ntrain*n or ntrain*T*n or ntrain*n*T
-        self.mean = torch.mean(x, 0)
-        self.std = torch.std(x, 0)
+        self.mean = torch.mean(x, 0, device =device)
+        self.std = torch.std(x, 0,device =device)
         self.eps = eps
 
     def encode(self, x):
@@ -102,8 +102,8 @@ class UnitGaussianNormalizer(object):
         return x
 
     def cuda(self):
-        self.mean = self.mean.cuda()
-        self.std = self.std.cuda()
+        self.mean = self.mean.to(device)
+        self.std = self.std.to(device)
 
     def cpu(self):
         self.mean = self.mean.cpu()
@@ -127,8 +127,8 @@ class GaussianNormalizer(object):
         return x
 
     def cuda(self):
-        self.mean = self.mean.cuda()
-        self.std = self.std.cuda()
+        self.mean = self.mean.to(device)
+        self.std = self.std.to(device)
 
     def cpu(self):
         self.mean = self.mean.cpu()
