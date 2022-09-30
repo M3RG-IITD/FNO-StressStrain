@@ -16,6 +16,14 @@ We compare the results of the FNO with ResNet and UNet architectures.
 
 
 
+#### Dataset
+
+The Dataset used are available at FNO-DATASET. It contains:
+E := [Samples, H, W]
+Strains := [Sample,H,W, compoment]
+Stresses := [Sample, H,W, compoment]
+
+
 
 
 
