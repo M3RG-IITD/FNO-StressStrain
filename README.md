@@ -7,6 +7,15 @@ We use the FNO framework to predcit components of Stress and Strain Tensors
 $$\hspace{10cm}  Stress := \sigma_{xx} ,\sigma_{yy},\sigma_{xy}$$
 $$\hspace{10cm}  Strain := \varepsilon_{xx} ,\varepsilon_{yy},\varepsilon_{xy}$$
 
+The predicted tensor components are used to measure the equivalent properties like Von-mises stress
+and Equilvalent Strains.
+
+### Benchmarking
+
+We compare the results of the FNO with ResNet and UNet architectures.
+
+
+
 
 
 
