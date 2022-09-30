@@ -10,6 +10,7 @@ $$\hspace{10cm}  Strain := \varepsilon_{xx} ,\varepsilon_{yy},\varepsilon_{xy}$$
 The predicted tensor components are used to measure the equivalent properties like Von-mises stress
 and Equilvalent Strains.
 
+
 ### Benchmarking
 
 We compare the results of the FNO with ResNet and UNet architectures.
@@ -19,9 +20,9 @@ We compare the results of the FNO with ResNet and UNet architectures.
 #### Dataset
 
 The Dataset used are available at FNO-DATASET. It contains:
-E := [Samples, H, W]
-Strains := [Sample,H,W, compoment]
-Stresses := [Sample, H,W, compoment]
+$$E := [Sample, H, W]$$
+$$Strains := [Sample,H,W, compoment]$$
+$$Stresses := [Sample, H,W, compoment]$$
 
 
 
