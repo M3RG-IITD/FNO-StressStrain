@@ -19,7 +19,7 @@ We compare the results of the FNO with ResNet and UNet architectures.
 
 ### -Dataset
 
-The Dataset used are available at [FNO-DATASET](https://zenodo.org/record/7127734). It contains:
+The FE simulations are performed using ABAQUS using this [script](https://github.com/M3RG-IITD/FNO-StressStrain/tree/main/abaqus) .The Dataset used are available at [FNO-DATASET](https://zenodo.org/record/7127734).It contains:
 $$E := [Sample, H, W]$$
 $$Strains := [Sample,H,W, component]$$
 $$Stresses := [Sample, H,W, component]$$
